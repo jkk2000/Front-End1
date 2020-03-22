@@ -1,0 +1,104 @@
+.round
+{
+    height: 300px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.col-sm-3
+{
+    padding: 0px 50px;
+}
+
+.topnav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li
+{
+    float: left;
+}
+
+ul.topnav li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active)
+{
+    background-color: #111;
+}
+
+ul.topnav li a.active
+{
+    background-color: white;
+    color: black;
+}
+
+.hi{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    
+      position: fixed;
+      background: rgba(0, 0, 0, 0);
+      padding:0px 20px;
+    }
+
+    .hello{
+      list-style-type: none;
+      margin: 0;
+      overflow: hidden;;
+      background: black;
+      padding:0px 20px;
+    }
+
+nav li a{
+  text-decoration: none;
+}
+
+nav .hi li a:hover{
+    text-decoration: none;
+    background: #333;
+}
+
+nav .hello li a:hover{
+  text-decoration: none;
+  background: #333;
+}
+
+    .run{
+      background-image: url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto:good/redbullcom/2017/12/13/369a62b2-2c6c-4bee-b344-75ca58e180f6/pondella-running);
+      background-size: cover;
+      width: 100%;
+      height: 800px;
+    }
+
+    .pl{
+      background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/weightlifting-02.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 800px;
+    }
+
+    .code{
+      background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+      background-size: cover;
+      width: 100%;
+      height: 800px;
+    }

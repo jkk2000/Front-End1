@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" -->
+        <link href="styles.css" rel="stylesheet">
+        <title>
+            Running
+        </title>
+
+<!-- script -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
+    </head>
+    <body>
+        <nav class="hi">
+            <div class="nav-wrapper">
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="red">Running</a></li>
+                    <li><a href="power.html">Powerlifting</a></li>
+                    <li><a href="code.html">Coding</a></li>
+                </ul>
+          </div>
+        </nav>
+        <section class = "run">
+
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m9 l10">
+                  <div id="introduction" class="section scrollspy"> 
+                    <p>
+                        Well I'm actually new to running, it's been about 6-7 months and it's been amazing is all I have to say. I started running after my friend once
+                        invited me to run with him to a beach about 7-8 km away. I thought I could and it would'nt be hard, but needless to say it wasn't. One kilometer
+                        in my body started to die of dehydration and I felt a slight pain in my lower abdomen. I wanted to stop but friend kept motivating me. He kept pushing
+                        me and together we made it. Slowed down more than a few times and but in the end after reaching there I felt astounded and the view was amazing. Easily
+                        among the best things I've done.
+                    </p>
+                    </div>
+                    <div id="images" class="section scrollspy"> 
+                    <div class="slider">
+                        <ul class="slides">
+                          <li>
+                            <img src="run1.jpg">
+                          </li>
+                          <li>
+                            <img src="run2.jpg"> 
+                          </li>
+                          <li>
+                            <img src="run3.jpg"> <!-- random image -->
+                          </li>
+                          <li>
+                            <img src="run5.jpg"> <!-- random image -->
+                          </li>
+                        </ul>
+                    </div>
+                  </div>
+            
+                  <div id="history" class="section scrollspy">
+                    <p>
+                        <p>It is thought that human running evolved at least four and a half million years ago out of the ability of the ape-like Australopithecus, an early ancestor of humans, to walk upright on two legs.</p>
+                        <p>Early humans most likely developed into endurance runners from the practice of persistence hunting of animals, the activity of following and chasing until a prey is too exhausted to flee, succumbing to "chase myopathy" (Sears 2001), and that human features such as the nuchal ligament, abundant sweat glands, the Achilles tendons, big knee joints and muscular glutei maximi, were changes caused by this type of activity (Bramble & Lieberman 2004, et al.). The theory as first proposed used comparative physiological evidence and the natural habits of animals when running, indicating the likelihood of this activity as a successful hunting method. Further evidence from observation of modern-day hunting practice also indicated this likelihood (Carrier et al. 1984). According to Sears scientific investigation (Walker & Leakey 1993) of the Nariokotome Skeleton provided further evidence for the Carrier theory.</p>
+                        <p>Competitive running grew out of religious festivals in various areas such as Greece, Egypt, Asia, and the East African Rift in Africa. The Tailteann Games, an Irish sporting festival in honor of the goddess Tailtiu, dates back to 1829 BCE, and is one of the earliest records of competitive running.[citation needed] The origins of the Olympics and Marathon running are shrouded by myth and legend, though the first recorded games took place in 776 BCE. Running in Ancient Greece can be traced back to these games of 776 BCE.</p>
+                    </p>
+                  </div>
+            
+                  <div id="health" class="section scrollspy">
+                    <p>Content </p>
+                  </div>
+                </div>
+                <div class="col hide-on-small-only m3 l2">
+                    <div class="col hide-on-small-only m3 xl3 offset-xl1">
+                        <div class="toc-wrapper pin-top" style="top: 0px;">
+                          <div style="height: 1px;">
+                            <ul class="section table-of-contents">
+                              <li>
+                                <a href="#introduction" class="active">Introduction</a>
+                              </li>
+                              <li>
+                                <a href="#images" class="">Images</a>
+                              </li>
+                              <li>
+                                <a href="#history" class="">History</a>
+                              </li>
+                              <li>
+                                <a href="#health" class="">Health</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $(window).scroll(function(){
+
+                    if($(window).scrollTop()>500)
+                    {
+                      $('nav').addClass('black');
+                    }
+                    else
+                    {
+                      $('nav').removeClass('black');
+                    }
+
+                });
+
+            });
+
+            //carousel
+            $(document).ready(function(){
+                $('.scrollspy').scrollSpy();
+                $('.slider').slider();
+            });
+        </script>
+        
+    </body>
+</html>
